@@ -10,7 +10,7 @@ function Util() {
 
   function calculateTotalNumberOfPassengers(totalPassengers) {
     let sumPassengers = 0;
-    for (i = 0; i < totalPassengers.length - 1; i++) {
+    for (i = 0; i < totalPassengers.length; i++) {
       sumPassengers += totalPassengers[i];
     }
     return sumPassengers;
